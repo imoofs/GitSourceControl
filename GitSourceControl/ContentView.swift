@@ -22,7 +22,7 @@ struct ContentView: View {
             Image(systemName: "heart.fill")
                 .font(.largeTitle)
                 .foregroundStyle(.tint)
-            Text("Happy Birth Day!")
+            Text("Happy Valentain's Day!")
             
             Button("Subscribe") {
                 
