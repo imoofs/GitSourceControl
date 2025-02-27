@@ -24,7 +24,7 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Happy Valentine's day!")
             
-            Button("Click Subscribe") {
+            Button("Subscribe") {
                 
             }
             .padding()
