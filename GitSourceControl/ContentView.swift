@@ -22,20 +22,14 @@ struct ContentView: View {
             ScrollView {
                 VStack {
                     ForEach(0..<20) { row in
-                        VStack {
-                            Image(systemName: "globe")
-                                .font(.largeTitle)
-                                .foregroundStyle(.tint)
-                            Text("New Title ! ")
+                        
+                        Image(systemName: "globe")
+                            .font(.largeTitle)
+                            .foregroundStyle(.tint)
+                        Text("New Title ! ")
+                        
+                        Button("Click me!") {
                             
-                            Button("Click me!") {
-                                
-                            }
-                            .padding()
-                            .background(.red)
-                            .cornerRadius(10)
-                            
-                            Rectangle()
                         }
                     }
                 }
