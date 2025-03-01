@@ -7,11 +7,13 @@
 
 /*
  Clone = Copying the repo locally
- Commit = Save ("checkpoint") on our current branch
+ Commit = Save ("checkpoint") changes on our current branch
  Stage = Prepare changes for later
  Push = Send local commits to remote repo
  Pull = Fetch remote commits to local repo
-
+ Merge = Joining two different branch
+ Rebase = Moving one branch on top of another branch
+ Cherry picking = Duplicating (copying) one commit from one branch to another
  */
 
 import SwiftUI
@@ -21,12 +23,12 @@ struct ContentView: View {
         VStack {
             ScrollView {
                 VStack {
-                    ForEach(0..<20) { row in
+                    ForEach(0..<5) { row in
                         
-                        Image(systemName: "globe")
+                        Image(systemName: "magnifyingglass")
                             .font(.largeTitle)
                             .foregroundStyle(.tint)
-                        Text("New Title ! ")
+                        Text("Swiftfull Thinking ! ")
                         
                         Button("Click me!") {
                             
