@@ -1,0 +1,13 @@
+# 모든 파일에 대한 기본 소유자 지정
+* @imoofs
+
+# 특정 디렉토리 소유자 지정
+/docs/ @imoofs
+/src/ @imoofs
+
+# 특정 파일 유형 소유자 지정
+*.json @imoofs
+*.swift @imoofs
+
+# 특정 파일 소유자 지정
+Dockerfile @imoofs
