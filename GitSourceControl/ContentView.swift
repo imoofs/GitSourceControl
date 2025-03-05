@@ -18,6 +18,14 @@
   PR Merge = Merge all commits
   PR Squash Merge = Squash all commits into ONE and then merge ONE commit
  
+ Protecting Branches (/.github/pull_request_template.md)
+ Code Owners(/.github/CODEOWNERS)
+ Git Ignore(.gitignore)
+ ReadMe(README.md)
+ 
+ Releases, Tags, Versioning
+ 
+ 
  */
 
 import SwiftUI
