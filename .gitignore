@@ -1,0 +1,58 @@
+### Xcode ###
+# Xcode temporary files
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+
+# Xcode project files
+*.pbxuser
+*.xcuserstate
+
+# Xcode build folders
+DerivedData/
+
+# Xcode scheme files
+*.xcscheme
+
+# Xcode asset cache
+*.DS_Store
+
+### Swift Package Manager ###
+.build/
+Package.resolved
+
+### CocoaPods ###
+Pods/
+*.lock
+
+### Carthage ###
+Carthage/Build/
+
+### Fastlane ###
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+### Miscellaneous ###
+*.swp
+*.swo
+*.lock
+
+# User-specific files
+.idea/
+.vscode/
+*.xcworkspace
+
+# Environment-specific files
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.log
+
+# App binary files
+*.ipa
+*.dSYM
